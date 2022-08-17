@@ -56,6 +56,7 @@ RUN \
   if [ "${WITH_PLUGINS}" = "true" ]; then \
     pip install --no-cache-dir \
       "mkdocs-minify-plugin>=0.3" \
+      "mkdocs-macros-plugin>=0.7.0" \
       "mkdocs-redirects>=1.0"; \
   fi \
 && \
